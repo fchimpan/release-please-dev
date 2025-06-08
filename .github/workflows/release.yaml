@@ -1,4 +1,4 @@
-name: Release backend
+name: Release
 on:
   push:
     tags:
