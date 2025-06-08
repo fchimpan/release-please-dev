@@ -7,20 +7,17 @@
     "backend": {
       "path": "backend",
       "package-name": "backend",
-      "release-type": "go",
-      "changelog-path": "backend/CHANGELOG.md"
+      "release-type": "go"
     },
     "frontend": {
       "path": "frontend",
       "package-name": "frontend",
-      "release-type": "simple",
-      "changelog-path": "frontend/CHANGELOG.md"
+      "release-type": "simple"
     },
     "mobile": {
       "path": "mobile",
       "package-name": "mobile",
-      "release-type": "simple",
-      "changelog-path": "mobile/CHANGELOG.md"
+      "release-type": "simple"
     }
   }
 }
