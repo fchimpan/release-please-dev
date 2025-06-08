@@ -1,14 +1,13 @@
 {
   "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
   "include-component-in-tag": true,
-  "include-v-in-tag": true,
   "tag-separator": "@",
   "separate-pull-requests": true,
   "packages": {
     "backend": {
       "path": "backend",
       "package-name": "backend",
-      "release-type": "simple",
+      "release-type": "go",
       "changelog-path": "backend/CHANGELOG.md"
     },
     "frontend": {

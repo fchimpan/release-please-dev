@@ -5,6 +5,7 @@ on:
       - 'backend@*'
       - 'frontend@*'
       - 'mobile@*'
+  workflow_dispatch:
 permissions:
   contents: write
   pull-requests: write
