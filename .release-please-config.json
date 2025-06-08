@@ -10,11 +10,11 @@
     },
     "frontend": {
       "path": "frontend",
-      "release-type": "node"
+      "release-type": "simple"
     },
     "mobile": {
       "path": "mobile",
-      "release-type": "dart"
+      "release-type": "simple"
     }
   }
 }
