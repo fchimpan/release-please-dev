@@ -1,13 +1,15 @@
-name: Release backend
+name: Release
 on:
   push:
     tags:
       - 'backend@*'
       - 'frontend@*'
       - 'mobile@*'
+  workflow_dispatch:
 permissions:
   contents: write
   pull-requests: write
+  issues: write
 
 jobs:
   release:
