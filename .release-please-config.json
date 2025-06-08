@@ -6,18 +6,15 @@
   "packages": {
     "backend": {
       "path": "backend",
-      "package-name": "backend",
       "release-type": "go"
     },
     "frontend": {
       "path": "frontend",
-      "package-name": "frontend",
-      "release-type": "simple"
+      "release-type": "node"
     },
     "mobile": {
       "path": "mobile",
-      "package-name": "mobile",
-      "release-type": "simple"
+      "release-type": "dart"
     }
   }
 }
