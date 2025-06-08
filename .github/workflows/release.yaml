@@ -2,10 +2,9 @@ name: Release backend
 on:
   push:
     tags:
-      - 'backend@*.*.*+*'
-      - 'frontend@*.*.*+*'
-      - 'mobile@*.*.*+*'
-
+      - 'backend@*'
+      - 'frontend@*'
+      - 'mobile@*'
 permissions:
   contents: write
   pull-requests: write
