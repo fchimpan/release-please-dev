@@ -1,0 +1,27 @@
+{
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json",
+  "include-component-in-tag": true,
+  "include-v-in-tag": true,
+  "tag-separator": "@",
+  "separate-pull-requests": true,
+  "packages": {
+    "backend": {
+      "path": "backend",
+      "package-name": "backend",
+      "release-type": "simple",
+      "changelog-path": "backend/CHANGELOG.md"
+    },
+    "frontend": {
+      "path": "frontend",
+      "package-name": "frontend",
+      "release-type": "simple",
+      "changelog-path": "frontend/CHANGELOG.md"
+    },
+    "mobile": {
+      "path": "mobile",
+      "package-name": "mobile",
+      "release-type": "simple",
+      "changelog-path": "mobile/CHANGELOG.md"
+    }
+  }
+}
